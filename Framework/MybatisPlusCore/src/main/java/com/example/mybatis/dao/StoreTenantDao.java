@@ -23,7 +23,7 @@ public interface StoreTenantDao extends BaseMapper<StoreTenant> {
     @Select("select * from ec_store_tenant where id=#{id} ")
     List<StoreTenant> selectOneById(@Param("id") Integer id);
 
-    @Select("select * from ec_store_tenant where store_name= #{name}>")
+    @Select("select * from ec_store_tenant where store_name= #{name} ")
     List<StoreTenant> selectOneByName(@Param("name") String name);
 
 
