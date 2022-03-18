@@ -17,6 +17,7 @@
         <module>RabbitmqCore</module>
         <module>RedisCore</module>
         <module>SwaggerCore</module>
+        <module>MybatisPlusCore</module>
     </modules>
 
     <properties>
